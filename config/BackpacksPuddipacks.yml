@@ -1,0 +1,326 @@
+# Puddipacks - custom backpacks for Smoothbrain Backpacks 1.3.9+
+# Seven biome tiers. A new tier gives weight reduction. An upgrade gives slots.
+# Each tier consumes the previous tier pack. Only one pack per inventory (unique: global).
+# Requires "Use External YAML = On" in org.bepinex.plugins.backpacks.cfg.
+
+# ==================================================================================================
+# Tier 1 - Meadows
+"Scrap Satchel":
+  description: "Deer hide and scraps, stitched by a firelight. Holds a little, weighs the same. (8 to 12 slots, 0% weight reduction.)"
+  size: 4x2
+  unique: global
+  appearance:
+    BackpackBody: 8a6a4a
+    BackpackFlap: 74563a
+    PouchFront: hidden
+    PouchLeft: hidden
+    Knife: hidden
+    Knifesheath: hidden
+    Sleepbag: hidden
+    BackpackStrapTop: hidden
+    BackpackStrapBottom: hidden
+    Pot: hidden
+    ToolstrapTop: hidden
+    ToolstrapBottom: hidden
+    MetalclipLeft: hidden
+    MetalclipFrontLeft: hidden
+    MetalclipFrontRight: hidden
+    RingBottomLeft: hidden
+    Pickaxe: hidden
+    Teapot: hidden
+  crafting:
+    station: Workbench
+    level: 1
+    costs:
+      LeatherScraps: 20
+      DeerHide: 8
+  upgrade:
+    1:
+      LeatherScraps: 12
+      DeerHide: 5
+      size: 5x2
+    2:
+      LeatherScraps: 18
+      DeerHide: 7
+      size: 6x2
+  weight factor: 1.00
+  teleport: false
+
+# ==================================================================================================
+# Tier 2 - Black Forest
+"Forest Knapsack":
+  description: "Troll hide over a bronze-nailed frame, sealed with resin. (10 to 15 slots, 8% weight reduction.)"
+  size: 5x2
+  unique: global
+  appearance:
+    BackpackBody: 6b5238
+    BackpackFlap: 4f6448
+    PouchFront: 4f6448
+    PouchLeft: hidden
+    Knife: hidden
+    Knifesheath: hidden
+    Sleepbag: hidden
+    BackpackStrapTop: hidden
+    BackpackStrapBottom: hidden
+    Pot: hidden
+    ToolstrapTop: hidden
+    ToolstrapBottom: hidden
+    MetalclipLeft: hidden
+    MetalclipFrontLeft: hidden
+    MetalclipFrontRight: hidden
+    RingBottomLeft: hidden
+    Pickaxe: hidden
+    Teapot: hidden
+  crafting:
+    station: Workbench
+    level: 3
+    costs:
+      ScrapSatchel: 1
+      TrollHide: 10
+      BronzeNails: 20
+      Resin: 20
+  upgrade:
+    1:
+      TrollHide: 6
+      BronzeNails: 12
+      size: 6x2
+    2:
+      TrollHide: 9
+      BronzeNails: 18
+      Resin: 10
+      size: 5x3
+  weight factor: 0.92
+  teleport: false
+
+# ==================================================================================================
+# Tier 3 - Swamp
+"Bog Pack":
+  description: "Iron bands and elder bark keep the rot out. Mostly. (12 to 18 slots, 16% weight reduction.)"
+  size: 6x2
+  unique: global
+  appearance:
+    BackpackBody: 4e4636
+    BackpackFlap: 717a3a
+    PouchFront: 717a3a
+    PouchLeft: 717a3a
+    Knife: 6a6d70
+    Knifesheath: 3a3529
+    Sleepbag: hidden
+    BackpackStrapTop: hidden
+    BackpackStrapBottom: hidden
+    Pot: hidden
+    ToolstrapTop: hidden
+    ToolstrapBottom: hidden
+    MetalclipLeft: hidden
+    MetalclipFrontLeft: hidden
+    MetalclipFrontRight: hidden
+    RingBottomLeft: hidden
+    Pickaxe: hidden
+    Teapot: hidden
+  crafting:
+    station: Forge
+    level: 2
+    costs:
+      ForestKnapsack: 1
+      Iron: 16
+      ElderBark: 30
+      Guck: 10
+  upgrade:
+    1:
+      Iron: 10
+      ElderBark: 18
+      Guck: 6
+      size: 5x3
+    2:
+      Iron: 14
+      ElderBark: 27
+      Guck: 9
+      size: 6x3
+  weight factor: 0.84
+  teleport: false
+
+# ==================================================================================================
+# Tier 4 - Mountain
+"Frostbound Pack":
+  description: "Wolf pelt lined and silver clasped. The cold stays outside. (15 to 21 slots, 25% weight reduction.)"
+  size: 5x3
+  unique: global
+  appearance:
+    BackpackBody: 85847e
+    BackpackFlap: 5b7590
+    PouchFront: 5b7590
+    PouchLeft: 5b7590
+    Knife: a3a8ad
+    Knifesheath: 474a52
+    Sleepbag: aeaba2
+    BackpackStrapTop: 5b7590
+    BackpackStrapBottom: 5b7590
+    Pot: hidden
+    ToolstrapTop: hidden
+    ToolstrapBottom: hidden
+    MetalclipLeft: hidden
+    MetalclipFrontLeft: hidden
+    MetalclipFrontRight: hidden
+    RingBottomLeft: hidden
+    Pickaxe: hidden
+    Teapot: hidden
+  crafting:
+    station: Forge
+    level: 3
+    costs:
+      BogPack: 1
+      Silver: 16
+      WolfPelt: 10
+      WolfHairBundle: 10
+  upgrade:
+    1:
+      Silver: 10
+      WolfPelt: 6
+      size: 6x3
+    2:
+      Silver: 14
+      WolfPelt: 9
+      WolfHairBundle: 6
+      size: 7x3
+  weight factor: 0.75
+  teleport: false
+
+# ==================================================================================================
+# Tier 5 - Plains
+"Plainsrunner Pack":
+  description: "Lox hide and linen on a black metal frame, built for long marches. (18 to 24 slots, 33% weight reduction.)"
+  size: 6x3
+  unique: global
+  appearance:
+    BackpackBody: 7d4d32
+    BackpackFlap: a68a4c
+    PouchFront: a68a4c
+    PouchLeft: a68a4c
+    Knife: 3b3d41
+    Knifesheath: 55351f
+    Sleepbag: c2b28e
+    BackpackStrapTop: a68a4c
+    BackpackStrapBottom: a68a4c
+    Pot: 3b3d41
+    ToolstrapTop: a68a4c
+    ToolstrapBottom: a68a4c
+    MetalclipLeft: hidden
+    MetalclipFrontLeft: hidden
+    MetalclipFrontRight: hidden
+    RingBottomLeft: hidden
+    Pickaxe: hidden
+    Teapot: hidden
+  crafting:
+    station: Forge
+    level: 4
+    costs:
+      FrostboundPack: 1
+      BlackMetal: 16
+      LoxPelt: 10
+      LinenThread: 30
+  upgrade:
+    1:
+      BlackMetal: 10
+      LinenThread: 18
+      size: 7x3
+    2:
+      BlackMetal: 14
+      LoxPelt: 9
+      LinenThread: 27
+      size: 6x4
+  weight factor: 0.67
+  teleport: false
+
+# ==================================================================================================
+# Tier 6 - Mistlands
+"Eitrweave Pack":
+  description: "Carapace plates and scale hide, threaded with eitr. The load feels lighter than it is. (21 to 28 slots, 42% weight reduction.)"
+  size: 7x3
+  unique: global
+  appearance:
+    BackpackBody: 32343b
+    BackpackFlap: 6a9fb4
+    PouchFront: 6a9fb4
+    PouchLeft: 6a9fb4
+    Knife: 7c8590
+    Knifesheath: 3d4149
+    Sleepbag: "596069"
+    BackpackStrapTop: 6a9fb4
+    BackpackStrapBottom: 6a9fb4
+    Pot: 7c8590
+    ToolstrapTop: 6a9fb4
+    ToolstrapBottom: 6a9fb4
+    MetalclipLeft: 7c8590
+    MetalclipFrontLeft: 7c8590
+    MetalclipFrontRight: 7c8590
+    RingBottomLeft: 7c8590
+    Pickaxe: hidden
+    Teapot: hidden
+  crafting:
+    station: BlackForge
+    level: 1
+    costs:
+      PlainsrunnerPack: 1
+      Eitr: 20
+      ScaleHide: 10
+      Carapace: 20
+  upgrade:
+    1:
+      Eitr: 12
+      Carapace: 12
+      size: 6x4
+    2:
+      Eitr: 18
+      ScaleHide: 9
+      Carapace: 18
+      size: 7x4
+  weight factor: 0.58
+  teleport: false
+
+# ==================================================================================================
+# Tier 7 - Ashlands
+"Cinder Pack":
+  description: "Flametal ribs, ash hide and morgen sinew. Warm to the touch, and it passes through portals. (24 to 32 slots, 50% weight reduction.)"
+  size: 6x4
+  unique: global
+  appearance:
+    BackpackBody: 3d3836
+    BackpackFlap: ad5229
+    PouchFront: ad5229
+    PouchLeft: ad5229
+    Knife: 4c4649
+    Knifesheath: 302c2a
+    Sleepbag: 6b6461
+    BackpackStrapTop: ad5229
+    BackpackStrapBottom: ad5229
+    Pot: 4c4649
+    ToolstrapTop: ad5229
+    ToolstrapBottom: ad5229
+    MetalclipLeft: 4c4649
+    MetalclipFrontLeft: 4c4649
+    MetalclipFrontRight: 4c4649
+    RingBottomLeft: 4c4649
+    Pickaxe: 4c4649
+    Teapot: 4c4649
+  crafting:
+    station: BlackForge
+    level: 2
+    costs:
+      EitrweavePack: 1
+      FlametalNew: 16
+      AskHide: 10
+      CharredBone: 20
+      MorgenSinew: 6
+  upgrade:
+    1:
+      FlametalNew: 10
+      CharredBone: 12
+      size: 7x4
+    2:
+      FlametalNew: 14
+      AskHide: 9
+      CharredBone: 18
+      MorgenSinew: 5
+      size: 8x4
+  weight factor: 0.50
+  teleport: true
