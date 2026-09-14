@@ -81,11 +81,11 @@
     station: Workbench
     level: 3
     costs:
-      ScrapSatchel: 1
       TrollHide: 20
       BronzeNails: 40
       Resin: 40
       Upgrader1Armor: 1
+      ScrapSatchel: 1
   upgrade:
     1:
       TrollHide: 6
@@ -130,11 +130,11 @@
     station: Forge
     level: 2
     costs:
-      ForestKnapsack: 1
       Iron: 32
       ElderBark: 60
       Guck: 20
       Upgrader2Armor: 1
+      ForestKnapsack: 1
   upgrade:
     1:
       Iron: 10
@@ -180,11 +180,11 @@
     station: Forge
     level: 3
     costs:
-      BogPack: 1
       Silver: 32
       WolfPelt: 20
       WolfHairBundle: 20
       Upgrader3Armor: 1
+      BogPack: 1
   upgrade:
     1:
       Silver: 10
@@ -229,11 +229,11 @@
     station: Forge
     level: 4
     costs:
-      FrostboundPack: 1
       BlackMetal: 32
       LoxPelt: 20
       LinenThread: 60
       Upgrader4Armor: 1
+      FrostboundPack: 1
   upgrade:
     1:
       BlackMetal: 10
@@ -278,11 +278,11 @@
     station: BlackForge
     level: 1
     costs:
-      PlainsrunnerPack: 1
       Eitr: 40
       ScaleHide: 20
       Carapace: 40
       Upgrader5Armor: 1
+      PlainsrunnerPack: 1
   upgrade:
     1:
       Eitr: 12
@@ -327,12 +327,12 @@
     station: BlackForge
     level: 3
     costs:
-      EitrweavePack: 1
       FlametalNew: 32
       AskHide: 20
       CharredBone: 40
       MorgenSinew: 12
       Upgrader6Armor: 1
+      EitrweavePack: 1
   upgrade:
     1:
       FlametalNew: 10
@@ -378,12 +378,12 @@
     station: BlackForge
     level: 4
     costs:
-      CinderPack: 1
       Gold: 32
       MooseHide: 20
       Frostwood: 40
       NornThread: 12
       Upgrader7Armor: 1
+      CinderPack: 1
   upgrade:
     1:
       Gold: 10
