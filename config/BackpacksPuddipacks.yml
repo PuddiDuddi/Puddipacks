@@ -1,6 +1,7 @@
 # Puddipacks - custom backpacks for Smoothbrain Backpacks 1.3.9+
-# Seven biome tiers. A new tier gives weight reduction. An upgrade gives slots.
+# Eight biome tiers. A new tier gives weight reduction. An upgrade gives slots.
 # Each tier consumes the previous tier pack. Only one pack per inventory (unique: global).
+# Upgrades need Protection Idols (Upgrader0Armor .. Upgrader7Armor), loot from chests, one idol tier per biome.
 # All packs allow teleport of their contents (teleport: true). Change to false to block ore teleport.
 # Requires "Use External YAML = On" in org.bepinex.plugins.backpacks.cfg.
 
@@ -39,10 +40,12 @@
     1:
       LeatherScraps: 12
       DeerHide: 5
+      Upgrader0Armor: 1
       size: 5x2
     2:
       LeatherScraps: 18
       DeerHide: 7
+      Upgrader0Armor: 2
       size: 6x2
   weight factor: 1.00
   teleport: true
@@ -50,7 +53,7 @@
 # ==================================================================================================
 # Tier 2 - Black Forest
 "Forest Knapsack":
-  description: "Troll hide over a bronze-nailed frame, sealed with resin. (10 to 15 slots, 8% weight reduction.)"
+  description: "Troll hide over a bronze-nailed frame, sealed with resin. (10 to 15 slots, 7% weight reduction.)"
   size: 5x2
   unique: global
   appearance:
@@ -84,19 +87,21 @@
     1:
       TrollHide: 6
       BronzeNails: 12
+      Upgrader1Armor: 1
       size: 6x2
     2:
       TrollHide: 9
       BronzeNails: 18
       Resin: 10
+      Upgrader1Armor: 2
       size: 5x3
-  weight factor: 0.92
+  weight factor: 0.93
   teleport: true
 
 # ==================================================================================================
 # Tier 3 - Swamp
 "Bog Pack":
-  description: "Iron bands and elder bark keep the rot out. Mostly. (12 to 18 slots, 16% weight reduction.)"
+  description: "Iron bands and elder bark keep the rot out. Mostly. (12 to 18 slots, 14% weight reduction.)"
   size: 6x2
   unique: global
   appearance:
@@ -131,19 +136,21 @@
       Iron: 10
       ElderBark: 18
       Guck: 6
+      Upgrader2Armor: 1
       size: 5x3
     2:
       Iron: 14
       ElderBark: 27
       Guck: 9
+      Upgrader2Armor: 2
       size: 6x3
-  weight factor: 0.84
+  weight factor: 0.86
   teleport: true
 
 # ==================================================================================================
 # Tier 4 - Mountain
 "Frostbound Pack":
-  description: "Wolf pelt lined and silver clasped. The cold stays outside. (15 to 21 slots, 25% weight reduction.)"
+  description: "Wolf pelt lined and silver clasped. The cold stays outside. (15 to 21 slots, 21% weight reduction.)"
   size: 5x3
   unique: global
   appearance:
@@ -177,19 +184,21 @@
     1:
       Silver: 10
       WolfPelt: 6
+      Upgrader3Armor: 1
       size: 6x3
     2:
       Silver: 14
       WolfPelt: 9
       WolfHairBundle: 6
+      Upgrader3Armor: 2
       size: 7x3
-  weight factor: 0.75
+  weight factor: 0.79
   teleport: true
 
 # ==================================================================================================
 # Tier 5 - Plains
 "Plainsrunner Pack":
-  description: "Lox hide and linen on a black metal frame, built for long marches. (18 to 24 slots, 33% weight reduction.)"
+  description: "Lox hide and linen on a black metal frame, built for long marches. (18 to 24 slots, 29% weight reduction.)"
   size: 6x3
   unique: global
   appearance:
@@ -223,19 +232,21 @@
     1:
       BlackMetal: 10
       LinenThread: 18
+      Upgrader4Armor: 1
       size: 7x3
     2:
       BlackMetal: 14
       LoxPelt: 9
       LinenThread: 27
+      Upgrader4Armor: 2
       size: 6x4
-  weight factor: 0.67
+  weight factor: 0.71
   teleport: true
 
 # ==================================================================================================
 # Tier 6 - Mistlands
 "Eitrweave Pack":
-  description: "Carapace plates and scale hide, threaded with eitr. The load feels lighter than it is. (21 to 28 slots, 42% weight reduction.)"
+  description: "Carapace plates and scale hide, threaded with eitr. The load feels lighter than it is. (21 to 28 slots, 36% weight reduction.)"
   size: 7x3
   unique: global
   appearance:
@@ -269,19 +280,21 @@
     1:
       Eitr: 12
       Carapace: 12
+      Upgrader5Armor: 1
       size: 6x4
     2:
       Eitr: 18
       ScaleHide: 9
       Carapace: 18
+      Upgrader5Armor: 2
       size: 7x4
-  weight factor: 0.58
+  weight factor: 0.64
   teleport: true
 
 # ==================================================================================================
 # Tier 7 - Ashlands
 "Cinder Pack":
-  description: "Flametal ribs, ash hide and morgen sinew. Warm to the touch. (24 to 32 slots, 50% weight reduction.)"
+  description: "Flametal ribs, ash hide and morgen sinew. Warm to the touch. (24 to 32 slots, 43% weight reduction.)"
   size: 6x4
   unique: global
   appearance:
@@ -316,12 +329,63 @@
     1:
       FlametalNew: 10
       CharredBone: 12
+      Upgrader6Armor: 1
       size: 7x4
     2:
       FlametalNew: 14
       AskHide: 9
       CharredBone: 18
       MorgenSinew: 5
+      Upgrader6Armor: 2
       size: 8x4
+  weight factor: 0.57
+  teleport: true
+
+# ==================================================================================================
+# Tier 8 - Deep North
+"Northwind Pack":
+  description: "Bloodgold clasps on moose hide, stitched with nornathread. The frost does not touch what it holds. (28 to 35 slots, 50% weight reduction.)"
+  size: 7x4
+  unique: global
+  appearance:
+    BackpackBody: 7f8a94
+    BackpackFlap: 9e3a45
+    PouchFront: 9e3a45
+    PouchLeft: 9e3a45
+    Knife: c2a25b
+    Knifesheath: 4a3b33
+    Sleepbag: b9c2c8
+    BackpackStrapTop: 9e3a45
+    BackpackStrapBottom: 9e3a45
+    Pot: c2a25b
+    ToolstrapTop: 4a3b33
+    ToolstrapBottom: 4a3b33
+    MetalclipLeft: c2a25b
+    MetalclipFrontLeft: c2a25b
+    MetalclipFrontRight: c2a25b
+    RingBottomLeft: c2a25b
+    Pickaxe: c2a25b
+    Teapot: c2a25b
+  crafting:
+    station: BlackForge
+    level: 4
+    costs:
+      CinderPack: 1
+      Gold: 32
+      MooseHide: 20
+      Frostwood: 40
+      NornThread: 12
+  upgrade:
+    1:
+      Gold: 10
+      Frostwood: 12
+      Upgrader7Armor: 1
+      size: 8x4
+    2:
+      Gold: 14
+      MooseHide: 9
+      NornThread: 5
+      Upgrader7Armor: 2
+      size: 7x5
   weight factor: 0.50
   teleport: true

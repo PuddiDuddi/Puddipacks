@@ -1,8 +1,8 @@
 {
     "name": "Puddipacks",
-    "version_number": "1.0.0",
+    "version_number": "1.0.1",
     "website_url": "https://github.com/PuddiDuddi/Puddipacks",
-    "description": "Seven biome-tiered backpacks with balanced size and weight progression for Smoothbrain's Backpacks.",
+    "description": "Eight biome-tiered backpacks with balanced size and weight progression for Smoothbrain's Backpacks.",
     "dependencies": [
         "denikson-BepInExPack_Valheim-5.4.2350",
         "Smoothbrain-Backpacks-1.3.10"
