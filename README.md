@@ -1,5 +1,7 @@
 # Puddipacks
 
+<p align="center"><img src="https://raw.githubusercontent.com/PuddiDuddi/Puddipacks/main/assets/icon_full.png" width="400" alt="Puddipacks"></p>
+
 Seven biome-tiered backpacks for Smoothbrain's Backpacks mod. One backpack at a time. Small packs. A new tier lightens the load. An upgrade adds slots.
 
 Requires [Smoothbrain-Backpacks](https://thunderstore.io/c/valheim/p/Smoothbrain/Backpacks/) 1.3.9 or newer. Recommended: [AzuExtendedPlayerInventory](https://thunderstore.io/c/valheim/p/Azumatt/AzuExtendedPlayerInventory/) for a dedicated backpack slot.
@@ -11,32 +13,32 @@ Requires [Smoothbrain-Backpacks](https://thunderstore.io/c/valheim/p/Smoothbrain
 - **Each tier consumes the previous pack.** The base size of a new tier is the 2-star size of the previous tier. A fresh pack is a small step back in slots and a step forward in weight.
 - **One pack in the inventory.** `unique: global`. No stacking of packs.
 - **Slot ceiling is 32.** The vanilla Explorer's Backpack ceiling is 28.
-- **Tier recipes are the main cost.** Upgrades cost about 60% and 90% of the tier recipe. Costs are per level, not cumulative.
-- **Ore teleport only on the Ashlands tier.**
+- **Tier recipes are the main cost.** Upgrades cost about 30% and 45% of the tier recipe. Costs are per level, not cumulative.
+- **Teleport is on by default.** Every pack carries its contents through portals, ore included. See "Turn off teleport" below to change this.
 
 ## Tiers
 
 | Tier | Biome | Name | Station | 1 star | 2 star | 3 star | Weight of contents | Teleport |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Meadows | Scrap Satchel | Workbench 1 | 4x2 (8) | 5x2 (10) | 6x2 (12) | 100% | no |
-| 2 | Black Forest | Forest Knapsack | Workbench 3 | 5x2 (10) | 6x2 (12) | 5x3 (15) | 92% | no |
-| 3 | Swamp | Bog Pack | Forge 2 | 6x2 (12) | 5x3 (15) | 6x3 (18) | 84% | no |
-| 4 | Mountain | Frostbound Pack | Forge 3 | 5x3 (15) | 6x3 (18) | 7x3 (21) | 75% | no |
-| 5 | Plains | Plainsrunner Pack | Forge 4 | 6x3 (18) | 7x3 (21) | 6x4 (24) | 67% | no |
-| 6 | Mistlands | Eitrweave Pack | Black Forge 1 | 7x3 (21) | 6x4 (24) | 7x4 (28) | 58% | no |
+| 1 | Meadows | Scrap Satchel | Workbench 1 | 4x2 (8) | 5x2 (10) | 6x2 (12) | 100% | yes |
+| 2 | Black Forest | Forest Knapsack | Workbench 3 | 5x2 (10) | 6x2 (12) | 5x3 (15) | 92% | yes |
+| 3 | Swamp | Bog Pack | Forge 2 | 6x2 (12) | 5x3 (15) | 6x3 (18) | 84% | yes |
+| 4 | Mountain | Frostbound Pack | Forge 3 | 5x3 (15) | 6x3 (18) | 7x3 (21) | 75% | yes |
+| 5 | Plains | Plainsrunner Pack | Forge 4 | 6x3 (18) | 7x3 (21) | 6x4 (24) | 67% | yes |
+| 6 | Mistlands | Eitrweave Pack | Black Forge 1 | 7x3 (21) | 6x4 (24) | 7x4 (28) | 58% | yes |
 | 7 | Ashlands | Cinder Pack | Black Forge 2 | 6x4 (24) | 7x4 (28) | 8x4 (32) | 50% | yes |
 
 ## Recipes
 
 | Tier | Tier recipe | 2 star | 3 star |
 |---|---|---|---|
-| 1 | Leather Scraps 20, Deer Hide 8 | Leather Scraps 12, Deer Hide 5 | Leather Scraps 18, Deer Hide 7 |
-| 2 | Scrap Satchel, Troll Hide 10, Bronze Nails 20, Resin 20 | Troll Hide 6, Bronze Nails 12 | Troll Hide 9, Bronze Nails 18, Resin 10 |
-| 3 | Forest Knapsack, Iron 16, Ancient Bark 30, Guck 10 | Iron 10, Ancient Bark 18, Guck 6 | Iron 14, Ancient Bark 27, Guck 9 |
-| 4 | Bog Pack, Silver 16, Wolf Pelt 10, Wolf Hair Bundle 10 | Silver 10, Wolf Pelt 6 | Silver 14, Wolf Pelt 9, Wolf Hair Bundle 6 |
-| 5 | Frostbound Pack, Black Metal 16, Lox Pelt 10, Linen Thread 30 | Black Metal 10, Linen Thread 18 | Black Metal 14, Lox Pelt 9, Linen Thread 27 |
-| 6 | Plainsrunner Pack, Eitr 20, Scale Hide 10, Carapace 20 | Eitr 12, Carapace 12 | Eitr 18, Scale Hide 9, Carapace 18 |
-| 7 | Eitrweave Pack, Flametal 16, Asksvin Hide 10, Charred Bone 20, Morgen Sinew 6 | Flametal 10, Charred Bone 12 | Flametal 14, Asksvin Hide 9, Charred Bone 18, Morgen Sinew 5 |
+| 1 | Leather Scraps 40, Deer Hide 16 | Leather Scraps 12, Deer Hide 5 | Leather Scraps 18, Deer Hide 7 |
+| 2 | Scrap Satchel, Troll Hide 20, Bronze Nails 40, Resin 40 | Troll Hide 6, Bronze Nails 12 | Troll Hide 9, Bronze Nails 18, Resin 10 |
+| 3 | Forest Knapsack, Iron 32, Ancient Bark 60, Guck 20 | Iron 10, Ancient Bark 18, Guck 6 | Iron 14, Ancient Bark 27, Guck 9 |
+| 4 | Bog Pack, Silver 32, Wolf Pelt 20, Wolf Hair Bundle 20 | Silver 10, Wolf Pelt 6 | Silver 14, Wolf Pelt 9, Wolf Hair Bundle 6 |
+| 5 | Frostbound Pack, Black Metal 32, Lox Pelt 20, Linen Thread 60 | Black Metal 10, Linen Thread 18 | Black Metal 14, Lox Pelt 9, Linen Thread 27 |
+| 6 | Plainsrunner Pack, Eitr 40, Scale Hide 20, Carapace 40 | Eitr 12, Carapace 12 | Eitr 18, Scale Hide 9, Carapace 18 |
+| 7 | Eitrweave Pack, Flametal 32, Asksvin Hide 20, Charred Bone 40, Morgen Sinew 12 | Flametal 10, Charred Bone 12 | Flametal 14, Asksvin Hide 9, Charred Bone 18, Morgen Sinew 5 |
 
 ## Looks
 
@@ -51,6 +53,29 @@ Each tier shows more parts of the backpack model and has its own accent color.
 | Plainsrunner Pack | wheat gold | + pot, tool straps |
 | Eitrweave Pack | eitr blue | + metal clips, ring |
 | Cinder Pack | ember orange | all parts |
+
+## Turn off teleport
+
+All packs allow teleport by default. This means you can carry ore and metal through a portal inside the pack. To block this, edit one word per pack in a text file. No tools are needed.
+
+1. Open your mod manager (r2modman or Thunderstore Mod Manager). Select your Valheim profile.
+2. Go to **Config editor** in the left menu. Find `BackpacksPuddipacks` in the list and open it. If you do not use a mod manager, open the file `BepInEx/config/BackpacksPuddipacks.yml` in Notepad.
+3. Find the line `teleport: true`. There is one line for every pack, seven in total.
+4. Change `true` to `false` on the packs that must not teleport. Keep the two spaces at the start of the line. Do not change anything else.
+5. Save the file. Restart the game.
+
+Example. This blocks ore teleport on the Bog Pack only:
+
+```yaml
+"Bog Pack":
+  ...
+  weight factor: 0.84
+  teleport: false
+```
+
+On a dedicated server, edit the file in the server config folder. The server sends the setting to all players.
+
+A safe middle option: set `teleport: false` on tiers 1 to 6 and keep `true` on the Cinder Pack. Then ore teleport unlocks in the Ashlands, at the same time as the vanilla stone portal.
 
 ## Installation
 

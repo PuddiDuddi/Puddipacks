@@ -1,6 +1,7 @@
 # Puddipacks - custom backpacks for Smoothbrain Backpacks 1.3.9+
 # Seven biome tiers. A new tier gives weight reduction. An upgrade gives slots.
 # Each tier consumes the previous tier pack. Only one pack per inventory (unique: global).
+# All packs allow teleport of their contents (teleport: true). Change to false to block ore teleport.
 # Requires "Use External YAML = On" in org.bepinex.plugins.backpacks.cfg.
 
 # ==================================================================================================
@@ -32,8 +33,8 @@
     station: Workbench
     level: 1
     costs:
-      LeatherScraps: 20
-      DeerHide: 8
+      LeatherScraps: 40
+      DeerHide: 16
   upgrade:
     1:
       LeatherScraps: 12
@@ -44,7 +45,7 @@
       DeerHide: 7
       size: 6x2
   weight factor: 1.00
-  teleport: false
+  teleport: true
 
 # ==================================================================================================
 # Tier 2 - Black Forest
@@ -76,9 +77,9 @@
     level: 3
     costs:
       ScrapSatchel: 1
-      TrollHide: 10
-      BronzeNails: 20
-      Resin: 20
+      TrollHide: 20
+      BronzeNails: 40
+      Resin: 40
   upgrade:
     1:
       TrollHide: 6
@@ -90,7 +91,7 @@
       Resin: 10
       size: 5x3
   weight factor: 0.92
-  teleport: false
+  teleport: true
 
 # ==================================================================================================
 # Tier 3 - Swamp
@@ -122,9 +123,9 @@
     level: 2
     costs:
       ForestKnapsack: 1
-      Iron: 16
-      ElderBark: 30
-      Guck: 10
+      Iron: 32
+      ElderBark: 60
+      Guck: 20
   upgrade:
     1:
       Iron: 10
@@ -137,7 +138,7 @@
       Guck: 9
       size: 6x3
   weight factor: 0.84
-  teleport: false
+  teleport: true
 
 # ==================================================================================================
 # Tier 4 - Mountain
@@ -169,9 +170,9 @@
     level: 3
     costs:
       BogPack: 1
-      Silver: 16
-      WolfPelt: 10
-      WolfHairBundle: 10
+      Silver: 32
+      WolfPelt: 20
+      WolfHairBundle: 20
   upgrade:
     1:
       Silver: 10
@@ -183,7 +184,7 @@
       WolfHairBundle: 6
       size: 7x3
   weight factor: 0.75
-  teleport: false
+  teleport: true
 
 # ==================================================================================================
 # Tier 5 - Plains
@@ -215,9 +216,9 @@
     level: 4
     costs:
       FrostboundPack: 1
-      BlackMetal: 16
-      LoxPelt: 10
-      LinenThread: 30
+      BlackMetal: 32
+      LoxPelt: 20
+      LinenThread: 60
   upgrade:
     1:
       BlackMetal: 10
@@ -229,7 +230,7 @@
       LinenThread: 27
       size: 6x4
   weight factor: 0.67
-  teleport: false
+  teleport: true
 
 # ==================================================================================================
 # Tier 6 - Mistlands
@@ -261,9 +262,9 @@
     level: 1
     costs:
       PlainsrunnerPack: 1
-      Eitr: 20
-      ScaleHide: 10
-      Carapace: 20
+      Eitr: 40
+      ScaleHide: 20
+      Carapace: 40
   upgrade:
     1:
       Eitr: 12
@@ -275,12 +276,12 @@
       Carapace: 18
       size: 7x4
   weight factor: 0.58
-  teleport: false
+  teleport: true
 
 # ==================================================================================================
 # Tier 7 - Ashlands
 "Cinder Pack":
-  description: "Flametal ribs, ash hide and morgen sinew. Warm to the touch, and it passes through portals. (24 to 32 slots, 50% weight reduction.)"
+  description: "Flametal ribs, ash hide and morgen sinew. Warm to the touch. (24 to 32 slots, 50% weight reduction.)"
   size: 6x4
   unique: global
   appearance:
@@ -307,10 +308,10 @@
     level: 2
     costs:
       EitrweavePack: 1
-      FlametalNew: 16
-      AskHide: 10
-      CharredBone: 20
-      MorgenSinew: 6
+      FlametalNew: 32
+      AskHide: 20
+      CharredBone: 40
+      MorgenSinew: 12
   upgrade:
     1:
       FlametalNew: 10
