@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.6.1
+## 1.0.7
 
 - Added a preview image of all eight packs to the README.
 
