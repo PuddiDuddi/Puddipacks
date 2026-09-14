@@ -4,7 +4,7 @@
 
 Eight biome-tiered backpacks for Smoothbrain's Backpacks mod. One backpack at a time. Small packs. A new tier lightens the load. An upgrade adds slots.
 
-Requires [Smoothbrain-Backpacks](https://thunderstore.io/c/valheim/p/Smoothbrain/Backpacks/) 1.3.9 or newer. Recommended: [AzuExtendedPlayerInventory](https://thunderstore.io/c/valheim/p/Azumatt/AzuExtendedPlayerInventory/) for a dedicated backpack slot.
+Requires [Smoothbrain-Backpacks](https://valheim.hexium.gg/mods/Smoothbrain/Backpacks) 1.3.10 or newer. Recommended: [AzuExtendedPlayerInventory](https://valheim.hexium.gg/mods/Azumatt/AzuExtendedPlayerInventory) for a dedicated backpack slot.
 
 ## Design
 
@@ -63,7 +63,7 @@ Each tier shows more parts of the backpack model and has its own accent color.
 
 All packs allow teleport by default. This means you can carry ore and metal through a portal inside the pack. To block this, edit one word per pack in a text file. No tools are needed.
 
-1. Open your mod manager (r2modman or Thunderstore Mod Manager). Select your Valheim profile.
+1. Open your mod manager (Hexium Mod Manager or r2modman). Select your Valheim profile.
 2. Go to **Config editor** in the left menu. Find `BackpacksPuddipacks` in the list and open it. If you do not use a mod manager, open the file `BepInEx/config/BackpacksPuddipacks.yml` in Notepad.
 3. Find the line `teleport: true`. There is one line for every pack, eight in total.
 4. Change `true` to `false` on the packs that must not teleport. Keep the two spaces at the start of the line. Do not change anything else.

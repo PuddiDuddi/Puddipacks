@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.5
+
+- All pack colors brightened for the in-game shaders.
+- README: requires Backpacks 1.3.10 or newer, links point to hexium.gg.
+
 ## 1.0.4
 
 - Every recipe has at most 4 ingredients, the number the crafting window shows.
