@@ -8,7 +8,7 @@ Requires [Smoothbrain-Backpacks](https://valheim.hexium.gg/mods/Smoothbrain/Back
 
 ## Preview
 
-<p align="center"><img src="https://raw.githubusercontent.com/PuddiDuddi/Puddipacks/main/assets/showroom.png" alt="All eight packs"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/PuddiDuddi/Puddipacks/main/assets/showroom.png?v=1.0.7" alt="All eight packs"></p>
 
 ## Design
 
