@@ -14,8 +14,8 @@
   size: 4x2
   unique: global
   appearance:
-    BackpackBody: 8a6a4a
-    BackpackFlap: 74563a
+    BackpackBody: bb9d7f
+    BackpackFlap: b18963
     PouchFront: hidden
     PouchLeft: hidden
     Knife: hidden
@@ -59,9 +59,9 @@
   size: 5x2
   unique: global
   appearance:
-    BackpackBody: 6b5238
-    BackpackFlap: 4f6448
-    PouchFront: 4f6448
+    BackpackBody: ab855e
+    BackpackFlap: 7f9c76
+    PouchFront: 7f9c76
     PouchLeft: hidden
     Knife: hidden
     Knifesheath: hidden
@@ -107,12 +107,12 @@
   size: 6x2
   unique: global
   appearance:
-    BackpackBody: 4e4636
-    BackpackFlap: 717a3a
-    PouchFront: 717a3a
-    PouchLeft: 717a3a
-    Knife: 6a6d70
-    Knifesheath: 3a3529
+    BackpackBody: 8a7c60
+    BackpackFlap: aab664
+    PouchFront: aab664
+    PouchLeft: aab664
+    Knife: 9da0a3
+    Knifesheath: 766c53
     Sleepbag: hidden
     BackpackStrapTop: hidden
     BackpackStrapBottom: hidden
@@ -156,15 +156,15 @@
   size: 5x3
   unique: global
   appearance:
-    BackpackBody: 85847e
-    BackpackFlap: 5b7590
-    PouchFront: 5b7590
-    PouchLeft: 5b7590
-    Knife: a3a8ad
-    Knifesheath: 474a52
-    Sleepbag: aeaba2
-    BackpackStrapTop: 5b7590
-    BackpackStrapBottom: 5b7590
+    BackpackBody: b7b6b2
+    BackpackFlap: 95a8bc
+    PouchFront: 95a8bc
+    PouchLeft: 95a8bc
+    Knife: d9dbdd
+    Knifesheath: 767b89
+    Sleepbag: dddcd9
+    BackpackStrapTop: 95a8bc
+    BackpackStrapBottom: 95a8bc
     Pot: hidden
     ToolstrapTop: hidden
     ToolstrapBottom: hidden
@@ -204,18 +204,18 @@
   size: 6x3
   unique: global
   appearance:
-    BackpackBody: 7d4d32
-    BackpackFlap: a68a4c
-    PouchFront: a68a4c
-    PouchLeft: a68a4c
-    Knife: 3b3d41
-    Knifesheath: 55351f
-    Sleepbag: c2b28e
-    BackpackStrapTop: a68a4c
-    BackpackStrapBottom: a68a4c
-    Pot: 3b3d41
-    ToolstrapTop: a68a4c
-    ToolstrapBottom: a68a4c
+    BackpackBody: bc7d59
+    BackpackFlap: cbb88d
+    PouchFront: cbb88d
+    PouchLeft: cbb88d
+    Knife: 6c6f76
+    Knifesheath: a0643a
+    Sleepbag: e6dfd0
+    BackpackStrapTop: cbb88d
+    BackpackStrapBottom: cbb88d
+    Pot: 6c6f76
+    ToolstrapTop: cbb88d
+    ToolstrapBottom: cbb88d
     MetalclipLeft: hidden
     MetalclipFrontLeft: hidden
     MetalclipFrontRight: hidden
@@ -252,22 +252,22 @@
   size: 7x3
   unique: global
   appearance:
-    BackpackBody: 32343b
-    BackpackFlap: 6a9fb4
-    PouchFront: 6a9fb4
-    PouchLeft: 6a9fb4
-    Knife: 7c8590
-    Knifesheath: 3d4149
-    Sleepbag: "596069"
-    BackpackStrapTop: 6a9fb4
-    BackpackStrapBottom: 6a9fb4
-    Pot: 7c8590
-    ToolstrapTop: 6a9fb4
-    ToolstrapBottom: 6a9fb4
-    MetalclipLeft: 7c8590
-    MetalclipFrontLeft: 7c8590
-    MetalclipFrontRight: 7c8590
-    RingBottomLeft: 7c8590
+    BackpackBody: "616572"
+    BackpackFlap: aecbd6
+    PouchFront: aecbd6
+    PouchLeft: aecbd6
+    Knife: b3b8bf
+    Knifesheath: 6b7281
+    Sleepbag: 8b939d
+    BackpackStrapTop: aecbd6
+    BackpackStrapBottom: aecbd6
+    Pot: b3b8bf
+    ToolstrapTop: aecbd6
+    ToolstrapBottom: aecbd6
+    MetalclipLeft: b3b8bf
+    MetalclipFrontLeft: b3b8bf
+    MetalclipFrontRight: b3b8bf
+    RingBottomLeft: b3b8bf
     Pickaxe: hidden
     Teapot: hidden
   crafting:
@@ -300,24 +300,24 @@
   size: 6x4
   unique: global
   appearance:
-    BackpackBody: 3d3836
-    BackpackFlap: ad5229
-    PouchFront: ad5229
-    PouchLeft: ad5229
-    Knife: 4c4649
-    Knifesheath: 302c2a
-    Sleepbag: 6b6461
-    BackpackStrapTop: ad5229
-    BackpackStrapBottom: ad5229
-    Pot: 4c4649
-    ToolstrapTop: ad5229
-    ToolstrapBottom: ad5229
-    MetalclipLeft: 4c4649
-    MetalclipFrontLeft: 4c4649
-    MetalclipFrontRight: 4c4649
-    RingBottomLeft: 4c4649
-    Pickaxe: 4c4649
-    Teapot: 4c4649
+    BackpackBody: 736a66
+    BackpackFlap: da8762
+    PouchFront: da8762
+    PouchLeft: da8762
+    Knife: 81777c
+    Knifesheath: 665e5a
+    Sleepbag: 9e9794
+    BackpackStrapTop: da8762
+    BackpackStrapBottom: da8762
+    Pot: 81777c
+    ToolstrapTop: da8762
+    ToolstrapBottom: da8762
+    MetalclipLeft: 81777c
+    MetalclipFrontLeft: 81777c
+    MetalclipFrontRight: 81777c
+    RingBottomLeft: 81777c
+    Pickaxe: 81777c
+    Teapot: 81777c
   crafting:
     station: BlackForge
     level: 3
@@ -348,24 +348,24 @@
   size: 7x4
   unique: global
   appearance:
-    BackpackBody: 7f8a94
-    BackpackFlap: 9e3a45
-    PouchFront: 9e3a45
-    PouchLeft: 9e3a45
-    Knife: c2a25b
-    Knifesheath: 4a3b33
-    Sleepbag: b9c2c8
-    BackpackStrapTop: 9e3a45
-    BackpackStrapBottom: 9e3a45
-    Pot: c2a25b
-    ToolstrapTop: 4a3b33
-    ToolstrapBottom: 4a3b33
-    MetalclipLeft: c2a25b
-    MetalclipFrontLeft: c2a25b
-    MetalclipFrontRight: c2a25b
-    RingBottomLeft: c2a25b
-    Pickaxe: c2a25b
-    Teapot: c2a25b
+    BackpackBody: b7bdc2
+    BackpackFlap: cb737c
+    PouchFront: cb737c
+    PouchLeft: cb737c
+    Knife: decca5
+    Knifesheath: 866b5d
+    Sleepbag: dde1e4
+    BackpackStrapTop: cb737c
+    BackpackStrapBottom: cb737c
+    Pot: decca5
+    ToolstrapTop: 866b5d
+    ToolstrapBottom: 866b5d
+    MetalclipLeft: decca5
+    MetalclipFrontLeft: decca5
+    MetalclipFrontRight: decca5
+    RingBottomLeft: decca5
+    Pickaxe: decca5
+    Teapot: decca5
   crafting:
     station: BlackForge
     level: 4
