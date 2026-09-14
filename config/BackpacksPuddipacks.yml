@@ -305,7 +305,7 @@
     Teapot: 4c4649
   crafting:
     station: BlackForge
-    level: 2
+    level: 3
     costs:
       EitrweavePack: 1
       FlametalNew: 32

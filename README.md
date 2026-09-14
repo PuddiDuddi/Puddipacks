@@ -26,7 +26,7 @@ Requires [Smoothbrain-Backpacks](https://thunderstore.io/c/valheim/p/Smoothbrain
 | 4 | Mountain | Frostbound Pack | Forge 3 | 5x3 (15) | 6x3 (18) | 7x3 (21) | 75% | yes |
 | 5 | Plains | Plainsrunner Pack | Forge 4 | 6x3 (18) | 7x3 (21) | 6x4 (24) | 67% | yes |
 | 6 | Mistlands | Eitrweave Pack | Black Forge 1 | 7x3 (21) | 6x4 (24) | 7x4 (28) | 58% | yes |
-| 7 | Ashlands | Cinder Pack | Black Forge 2 | 6x4 (24) | 7x4 (28) | 8x4 (32) | 50% | yes |
+| 7 | Ashlands | Cinder Pack | Black Forge 3 | 6x4 (24) | 7x4 (28) | 8x4 (32) | 50% | yes |
 
 ## Recipes
 
