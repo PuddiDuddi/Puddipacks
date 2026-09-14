@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.4
+
+- Every recipe has at most 4 ingredients, the number the crafting window shows.
+- No idol on the craft. Upgrades need 2 idols for 2 stars and 3 idols for 3 stars.
+- Cinder Pack: Morgen Sinew moved from the craft to the 3-star upgrade. Charred Bone removed from the 3-star upgrade.
+- Northwind Pack: Nornathread removed from the craft, still in the 3-star upgrade.
+
 ## 1.0.3
 
 - The previous pack is the last ingredient in every recipe.

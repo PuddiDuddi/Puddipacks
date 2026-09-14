@@ -1,7 +1,8 @@
 # Puddipacks - custom backpacks for Smoothbrain Backpacks 1.3.9+
 # Eight biome tiers. A new tier gives weight reduction. An upgrade gives slots.
 # Each tier consumes the previous tier pack. Only one pack per inventory (unique: global).
-# Every pack needs Protection Idols (Upgrader0Armor .. Upgrader7Armor): 1 to craft, 2 for 2 stars, 3 for 3 stars.
+# Upgrades need Protection Idols (Upgrader0Armor .. Upgrader7Armor): 2 for 2 stars, 3 for 3 stars.
+# Every recipe has at most 4 ingredients, the number the crafting window shows.
 # Idols are loot from chests, one idol tier per biome.
 # All packs allow teleport of their contents (teleport: true). Change to false to block ore teleport.
 # Requires "Use External YAML = On" in org.bepinex.plugins.backpacks.cfg.
@@ -37,7 +38,6 @@
     costs:
       LeatherScraps: 40
       DeerHide: 16
-      Upgrader0Armor: 1
   upgrade:
     1:
       LeatherScraps: 12
@@ -84,7 +84,6 @@
       TrollHide: 20
       BronzeNails: 40
       Resin: 40
-      Upgrader1Armor: 1
       ScrapSatchel: 1
   upgrade:
     1:
@@ -133,7 +132,6 @@
       Iron: 32
       ElderBark: 60
       Guck: 20
-      Upgrader2Armor: 1
       ForestKnapsack: 1
   upgrade:
     1:
@@ -183,7 +181,6 @@
       Silver: 32
       WolfPelt: 20
       WolfHairBundle: 20
-      Upgrader3Armor: 1
       BogPack: 1
   upgrade:
     1:
@@ -232,7 +229,6 @@
       BlackMetal: 32
       LoxPelt: 20
       LinenThread: 60
-      Upgrader4Armor: 1
       FrostboundPack: 1
   upgrade:
     1:
@@ -281,7 +277,6 @@
       Eitr: 40
       ScaleHide: 20
       Carapace: 40
-      Upgrader5Armor: 1
       PlainsrunnerPack: 1
   upgrade:
     1:
@@ -330,8 +325,6 @@
       FlametalNew: 32
       AskHide: 20
       CharredBone: 40
-      MorgenSinew: 12
-      Upgrader6Armor: 1
       EitrweavePack: 1
   upgrade:
     1:
@@ -342,8 +335,7 @@
     2:
       FlametalNew: 14
       AskHide: 9
-      CharredBone: 18
-      MorgenSinew: 5
+      MorgenSinew: 6
       Upgrader6Armor: 3
       size: 8x4
   weight factor: 0.57
@@ -381,8 +373,6 @@
       Gold: 32
       MooseHide: 20
       Frostwood: 40
-      NornThread: 12
-      Upgrader7Armor: 1
       CinderPack: 1
   upgrade:
     1:

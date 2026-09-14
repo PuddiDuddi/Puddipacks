@@ -14,7 +14,8 @@ Requires [Smoothbrain-Backpacks](https://thunderstore.io/c/valheim/p/Smoothbrain
 - **One pack in the inventory.** `unique: global`. No stacking of packs.
 - **Slot ceiling is 35.** The vanilla Explorer's Backpack ceiling is 28.
 - **Tier recipes are the main cost.** Upgrades cost about 30% and 45% of the tier recipe. Costs are per level, not cumulative.
-- **Every pack needs Protection Idols.** One idol to craft, two for 2 stars, three for 3 stars. The idol tier matches the biome of the pack. Idols are loot from chests and cannot be crafted.
+- **Every recipe has at most 4 ingredients.** This is the number the crafting window shows.
+- **Upgrades need Protection Idols.** Two idols for 2 stars, three for 3 stars. No idol on the craft itself. The idol tier matches the biome of the pack. Idols are loot from chests and cannot be crafted.
 - **Teleport is on by default.** Every pack carries its contents through portals, ore included. See "Turn off teleport" below to change this.
 
 ## Tiers
@@ -34,14 +35,14 @@ Requires [Smoothbrain-Backpacks](https://thunderstore.io/c/valheim/p/Smoothbrain
 
 | Tier | Tier recipe | 2 star | 3 star |
 |---|---|---|---|
-| 1 | Leather Scraps 40, Deer Hide 16, Wooden Protection Idol 1 | Leather Scraps 12, Deer Hide 5, Wooden Protection Idol 2 | Leather Scraps 18, Deer Hide 7, Wooden Protection Idol 3 |
-| 2 | Scrap Satchel, Troll Hide 20, Bronze Nails 40, Resin 40, Bronze Protection Idol 1 | Troll Hide 6, Bronze Nails 12, Bronze Protection Idol 2 | Troll Hide 9, Bronze Nails 18, Resin 10, Bronze Protection Idol 3 |
-| 3 | Forest Knapsack, Iron 32, Ancient Bark 60, Guck 20, Iron Protection Idol 1 | Iron 10, Ancient Bark 18, Guck 6, Iron Protection Idol 2 | Iron 14, Ancient Bark 27, Guck 9, Iron Protection Idol 3 |
-| 4 | Bog Pack, Silver 32, Wolf Pelt 20, Wolf Hair Bundle 20, Silver Protection Idol 1 | Silver 10, Wolf Pelt 6, Silver Protection Idol 2 | Silver 14, Wolf Pelt 9, Wolf Hair Bundle 6, Silver Protection Idol 3 |
-| 5 | Frostbound Pack, Black Metal 32, Lox Pelt 20, Linen Thread 60, Black Metal Protection Idol 1 | Black Metal 10, Linen Thread 18, Black Metal Protection Idol 2 | Black Metal 14, Lox Pelt 9, Linen Thread 27, Black Metal Protection Idol 3 |
-| 6 | Plainsrunner Pack, Eitr 40, Scale Hide 20, Carapace 40, Black Marble Protection Idol 1 | Eitr 12, Carapace 12, Black Marble Protection Idol 2 | Eitr 18, Scale Hide 9, Carapace 18, Black Marble Protection Idol 3 |
-| 7 | Eitrweave Pack, Flametal 32, Asksvin Hide 20, Charred Bone 40, Morgen Sinew 12, Flametal Protection Idol 1 | Flametal 10, Charred Bone 12, Flametal Protection Idol 2 | Flametal 14, Asksvin Hide 9, Charred Bone 18, Morgen Sinew 5, Flametal Protection Idol 3 |
-| 8 | Cinder Pack, Bloodgold 32, Moose Hide 20, Timberwood 40, Nornathread 12, Bloodgold Protection Idol 1 | Bloodgold 10, Timberwood 12, Bloodgold Protection Idol 2 | Bloodgold 14, Moose Hide 9, Nornathread 5, Bloodgold Protection Idol 3 |
+| 1 | Leather Scraps 40, Deer Hide 16 | Leather Scraps 12, Deer Hide 5, Wooden Protection Idol 2 | Leather Scraps 18, Deer Hide 7, Wooden Protection Idol 3 |
+| 2 | Troll Hide 20, Bronze Nails 40, Resin 40, Scrap Satchel | Troll Hide 6, Bronze Nails 12, Bronze Protection Idol 2 | Troll Hide 9, Bronze Nails 18, Resin 10, Bronze Protection Idol 3 |
+| 3 | Iron 32, Ancient Bark 60, Guck 20, Forest Knapsack | Iron 10, Ancient Bark 18, Guck 6, Iron Protection Idol 2 | Iron 14, Ancient Bark 27, Guck 9, Iron Protection Idol 3 |
+| 4 | Silver 32, Wolf Pelt 20, Wolf Hair Bundle 20, Bog Pack | Silver 10, Wolf Pelt 6, Silver Protection Idol 2 | Silver 14, Wolf Pelt 9, Wolf Hair Bundle 6, Silver Protection Idol 3 |
+| 5 | Black Metal 32, Lox Pelt 20, Linen Thread 60, Frostbound Pack | Black Metal 10, Linen Thread 18, Black Metal Protection Idol 2 | Black Metal 14, Lox Pelt 9, Linen Thread 27, Black Metal Protection Idol 3 |
+| 6 | Eitr 40, Scale Hide 20, Carapace 40, Plainsrunner Pack | Eitr 12, Carapace 12, Black Marble Protection Idol 2 | Eitr 18, Scale Hide 9, Carapace 18, Black Marble Protection Idol 3 |
+| 7 | Flametal 32, Asksvin Hide 20, Charred Bone 40, Eitrweave Pack | Flametal 10, Charred Bone 12, Flametal Protection Idol 2 | Flametal 14, Asksvin Hide 9, Morgen Sinew 6, Flametal Protection Idol 3 |
+| 8 | Bloodgold 32, Moose Hide 20, Timberwood 40, Cinder Pack | Bloodgold 10, Timberwood 12, Bloodgold Protection Idol 2 | Bloodgold 14, Moose Hide 9, Nornathread 5, Bloodgold Protection Idol 3 |
 
 ## Looks
 
