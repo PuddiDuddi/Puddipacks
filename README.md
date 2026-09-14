@@ -6,6 +6,10 @@ Eight biome-tiered backpacks for Smoothbrain's Backpacks mod. One backpack at a 
 
 Requires [Smoothbrain-Backpacks](https://valheim.hexium.gg/mods/Smoothbrain/Backpacks) 1.3.10 or newer. Recommended: [AzuExtendedPlayerInventory](https://valheim.hexium.gg/mods/Azumatt/AzuExtendedPlayerInventory) for a dedicated backpack slot.
 
+## Preview
+
+<p align="center"><img src="https://raw.githubusercontent.com/PuddiDuddi/Puddipacks/main/assets/showroom.png" alt="All eight packs"></p>
+
 ## Design
 
 - **One pack per biome.** Eight tiers from Meadows to the Deep North.

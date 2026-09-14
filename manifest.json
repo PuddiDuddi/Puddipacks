@@ -1,6 +1,6 @@
 {
     "name": "Puddipacks",
-    "version_number": "1.0.6",
+    "version_number": "1.0.6.1",
     "website_url": "https://github.com/PuddiDuddi/Puddipacks",
     "description": "Eight biome-tiered backpacks with balanced size and weight progression for Smoothbrain's Backpacks.",
     "dependencies": [
