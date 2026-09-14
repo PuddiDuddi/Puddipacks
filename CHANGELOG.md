@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+
+- The previous pack is the last ingredient in every recipe.
+
 ## 1.0.2
 
 - New tier 8: Northwind Pack for the Deep North, crafted at Black Forge 4.
