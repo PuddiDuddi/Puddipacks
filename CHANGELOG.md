@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.6
+
+- `unique` changed from `global` to `type`. With `global` the previous pack in the inventory blocked the craft of the next tier.
+
 ## 1.0.5
 
 - All pack colors brightened for the in-game shaders.

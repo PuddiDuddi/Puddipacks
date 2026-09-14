@@ -1,6 +1,7 @@
 # Puddipacks - custom backpacks for Smoothbrain Backpacks 1.3.9+
 # Eight biome tiers. A new tier gives weight reduction. An upgrade gives slots.
-# Each tier consumes the previous tier pack. Only one pack per inventory (unique: global).
+# Each tier consumes the previous tier pack. One pack of each type per inventory (unique: type).
+# 'global' would block crafting, because the previous pack in the inventory counts as a second backpack.
 # Upgrades need Protection Idols (Upgrader0Armor .. Upgrader7Armor): 2 for 2 stars, 3 for 3 stars.
 # Every recipe has at most 4 ingredients, the number the crafting window shows.
 # Idols are loot from chests, one idol tier per biome.
@@ -12,7 +13,7 @@
 "Scrap Satchel":
   description: "Deer hide and scraps, stitched by a firelight. Holds a little, weighs the same. (8 to 12 slots, 0% weight reduction.)"
   size: 4x2
-  unique: global
+  unique: type
   appearance:
     BackpackBody: bb9d7f
     BackpackFlap: b18963
@@ -57,7 +58,7 @@
 "Forest Knapsack":
   description: "Troll hide over a bronze-nailed frame, sealed with resin. (10 to 15 slots, 7% weight reduction.)"
   size: 5x2
-  unique: global
+  unique: type
   appearance:
     BackpackBody: ab855e
     BackpackFlap: 7f9c76
@@ -105,7 +106,7 @@
 "Bog Pack":
   description: "Iron bands and elder bark keep the rot out. Mostly. (12 to 18 slots, 14% weight reduction.)"
   size: 6x2
-  unique: global
+  unique: type
   appearance:
     BackpackBody: 8a7c60
     BackpackFlap: aab664
@@ -154,7 +155,7 @@
 "Frostbound Pack":
   description: "Wolf pelt lined and silver clasped. The cold stays outside. (15 to 21 slots, 21% weight reduction.)"
   size: 5x3
-  unique: global
+  unique: type
   appearance:
     BackpackBody: b7b6b2
     BackpackFlap: 95a8bc
@@ -202,7 +203,7 @@
 "Plainsrunner Pack":
   description: "Lox hide and linen on a black metal frame, built for long marches. (18 to 24 slots, 29% weight reduction.)"
   size: 6x3
-  unique: global
+  unique: type
   appearance:
     BackpackBody: bc7d59
     BackpackFlap: cbb88d
@@ -250,7 +251,7 @@
 "Eitrweave Pack":
   description: "Carapace plates and scale hide, threaded with eitr. The load feels lighter than it is. (21 to 28 slots, 36% weight reduction.)"
   size: 7x3
-  unique: global
+  unique: type
   appearance:
     BackpackBody: "616572"
     BackpackFlap: aecbd6
@@ -298,7 +299,7 @@
 "Cinder Pack":
   description: "Flametal ribs, ash hide and morgen sinew. Warm to the touch. (24 to 32 slots, 43% weight reduction.)"
   size: 6x4
-  unique: global
+  unique: type
   appearance:
     BackpackBody: 736a66
     BackpackFlap: da8762
@@ -346,7 +347,7 @@
 "Northwind Pack":
   description: "Bloodgold clasps on moose hide, stitched with nornathread. The frost does not touch what it holds. (28 to 35 slots, 50% weight reduction.)"
   size: 7x4
-  unique: global
+  unique: type
   appearance:
     BackpackBody: b7bdc2
     BackpackFlap: cb737c

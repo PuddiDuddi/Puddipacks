@@ -11,7 +11,7 @@ Requires [Smoothbrain-Backpacks](https://valheim.hexium.gg/mods/Smoothbrain/Back
 - **One pack per biome.** Eight tiers from Meadows to the Deep North.
 - **Tier gives weight reduction.** Upgrade gives slots. Each tier has 2 upgrades (3 stars). Each upgrade adds one row or one column.
 - **Each tier consumes the previous pack.** The base size of a new tier is the 2-star size of the previous tier. A fresh pack is a small step back in slots and a step forward in weight.
-- **One pack in the inventory.** `unique: global`. No stacking of packs.
+- **One pack of each type in the inventory.** `unique: type`. You cannot carry two Bog Packs. You can carry a Bog Pack and a Forest Knapsack, which is needed to craft the next tier.
 - **Slot ceiling is 35.** The vanilla Explorer's Backpack ceiling is 28.
 - **Tier recipes are the main cost.** Upgrades cost about 30% and 45% of the tier recipe. Costs are per level, not cumulative.
 - **Every recipe has at most 4 ingredients.** This is the number the crafting window shows.
