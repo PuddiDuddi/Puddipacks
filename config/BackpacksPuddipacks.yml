@@ -16,7 +16,7 @@
   unique: type
   appearance:
     BackpackBody: bb9d7f
-    BackpackFlap: b18963
+    BackpackFlap: 6a4428
     PouchFront: hidden
     PouchLeft: hidden
     Knife: hidden
@@ -61,8 +61,8 @@
   unique: type
   appearance:
     BackpackBody: ab855e
-    BackpackFlap: 7f9c76
-    PouchFront: 7f9c76
+    BackpackFlap: 3c8c64
+    PouchFront: 3c8c64
     PouchLeft: hidden
     Knife: hidden
     Knifesheath: hidden
@@ -109,11 +109,11 @@
   unique: type
   appearance:
     BackpackBody: 8a7c60
-    BackpackFlap: aab664
-    PouchFront: aab664
-    PouchLeft: aab664
-    Knife: 9da0a3
-    Knifesheath: 766c53
+    BackpackFlap: a0dc5a
+    PouchFront: a0dc5a
+    PouchLeft: a0dc5a
+    Knife: f0f4f8
+    Knifesheath: c89a68
     Sleepbag: hidden
     BackpackStrapTop: hidden
     BackpackStrapBottom: hidden
@@ -157,15 +157,15 @@
   size: 5x3
   unique: type
   appearance:
-    BackpackBody: b7b6b2
-    BackpackFlap: 95a8bc
-    PouchFront: 95a8bc
-    PouchLeft: 95a8bc
+    BackpackBody: 96b4ff
+    BackpackFlap: 4678ff
+    PouchFront: 4678ff
+    PouchLeft: 4678ff
     Knife: d9dbdd
     Knifesheath: 767b89
     Sleepbag: dddcd9
-    BackpackStrapTop: 95a8bc
-    BackpackStrapBottom: 95a8bc
+    BackpackStrapTop: 4678ff
+    BackpackStrapBottom: 4678ff
     Pot: hidden
     ToolstrapTop: hidden
     ToolstrapBottom: hidden
@@ -205,18 +205,18 @@
   size: 6x3
   unique: type
   appearance:
-    BackpackBody: bc7d59
-    BackpackFlap: cbb88d
-    PouchFront: cbb88d
-    PouchLeft: cbb88d
-    Knife: 6c6f76
-    Knifesheath: a0643a
-    Sleepbag: e6dfd0
-    BackpackStrapTop: cbb88d
-    BackpackStrapBottom: cbb88d
-    Pot: 6c6f76
-    ToolstrapTop: cbb88d
-    ToolstrapBottom: cbb88d
+    BackpackBody: 9a6a4a
+    BackpackFlap: ffe080
+    PouchFront: ffe080
+    PouchLeft: ffe080
+    Knife: 3a4048
+    Knifesheath: c8a078
+    Sleepbag: ffffff
+    BackpackStrapTop: ffe080
+    BackpackStrapBottom: ffe080
+    Pot: 3a4048
+    ToolstrapTop: ffe080
+    ToolstrapBottom: ffe080
     MetalclipLeft: hidden
     MetalclipFrontLeft: hidden
     MetalclipFrontRight: hidden
@@ -254,17 +254,17 @@
   unique: type
   appearance:
     BackpackBody: "616572"
-    BackpackFlap: aecbd6
-    PouchFront: aecbd6
-    PouchLeft: aecbd6
+    BackpackFlap: 28c8ff
+    PouchFront: 28c8ff
+    PouchLeft: 28c8ff
     Knife: b3b8bf
-    Knifesheath: 6b7281
-    Sleepbag: 8b939d
-    BackpackStrapTop: aecbd6
-    BackpackStrapBottom: aecbd6
+    Knifesheath: a8b0e0
+    Sleepbag: d0d8f0
+    BackpackStrapTop: 28c8ff
+    BackpackStrapBottom: 28c8ff
     Pot: b3b8bf
-    ToolstrapTop: aecbd6
-    ToolstrapBottom: aecbd6
+    ToolstrapTop: 28c8ff
+    ToolstrapBottom: 28c8ff
     MetalclipLeft: b3b8bf
     MetalclipFrontLeft: b3b8bf
     MetalclipFrontRight: b3b8bf
@@ -305,20 +305,20 @@
     BackpackFlap: da8762
     PouchFront: da8762
     PouchLeft: da8762
-    Knife: 81777c
-    Knifesheath: 665e5a
-    Sleepbag: 9e9794
+    Knife: e0c8b0
+    Knifesheath: ff4020
+    Sleepbag: d8d0c8
     BackpackStrapTop: da8762
     BackpackStrapBottom: da8762
-    Pot: 81777c
+    Pot: e0c8b0
     ToolstrapTop: da8762
     ToolstrapBottom: da8762
-    MetalclipLeft: 81777c
-    MetalclipFrontLeft: 81777c
-    MetalclipFrontRight: 81777c
-    RingBottomLeft: 81777c
-    Pickaxe: 81777c
-    Teapot: 81777c
+    MetalclipLeft: e0c8b0
+    MetalclipFrontLeft: e0c8b0
+    MetalclipFrontRight: e0c8b0
+    RingBottomLeft: e0c8b0
+    Pickaxe: e0c8b0
+    Teapot: e0c8b0
   crafting:
     station: BlackForge
     level: 3
@@ -349,24 +349,24 @@
   size: 7x4
   unique: type
   appearance:
-    BackpackBody: b7bdc2
-    BackpackFlap: cb737c
-    PouchFront: cb737c
-    PouchLeft: cb737c
-    Knife: decca5
-    Knifesheath: 866b5d
-    Sleepbag: dde1e4
-    BackpackStrapTop: cb737c
-    BackpackStrapBottom: cb737c
-    Pot: decca5
-    ToolstrapTop: 866b5d
-    ToolstrapBottom: 866b5d
-    MetalclipLeft: decca5
-    MetalclipFrontLeft: decca5
-    MetalclipFrontRight: decca5
-    RingBottomLeft: decca5
-    Pickaxe: decca5
-    Teapot: decca5
+    BackpackBody: 3c4a8c
+    BackpackFlap: 6aa8ff
+    PouchFront: 6aa8ff
+    PouchLeft: 6aa8ff
+    Knife: e0f0ff
+    Knifesheath: 6aa8ff
+    Sleepbag: ffffff
+    BackpackStrapTop: 6aa8ff
+    BackpackStrapBottom: 6aa8ff
+    Pot: e0f0ff
+    ToolstrapTop: 6aa8ff
+    ToolstrapBottom: 6aa8ff
+    MetalclipLeft: e0f0ff
+    MetalclipFrontLeft: e0f0ff
+    MetalclipFrontRight: e0f0ff
+    RingBottomLeft: e0f0ff
+    Pickaxe: e0f0ff
+    Teapot: e0f0ff
   crafting:
     station: BlackForge
     level: 4

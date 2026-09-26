@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.8
+
+- Colors reworked for the brown base texture of the backpack. The mod multiplies the config color with the texture, so pale colors showed as plain brown.
+- Frostbound Pack: navy blue. Eitrweave Pack: teal. Forest Knapsack: darker pine green. Bog Pack: stronger olive. Plainsrunner Pack: wheat gold on lox brown.
+- Northwind Pack: new midnight navy and steel blue theme for the Deep North.
+- Cinder Pack: pot, teapot, pickaxe and metal clips are now visible against the dark body.
+- Scrap Satchel: darker flap, so it stands apart from the body.
+- New preview image made from in-game screenshots.
+
 ## 1.0.7
 
 - Added a preview image of all eight packs to the README.

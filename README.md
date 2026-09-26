@@ -8,7 +8,7 @@ Requires [Smoothbrain-Backpacks](https://valheim.hexium.gg/mods/Smoothbrain/Back
 
 ## Preview
 
-<p align="center"><img src="https://raw.githubusercontent.com/PuddiDuddi/Puddipacks/main/assets/showroom.png?v=1.0.7" alt="All eight packs"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/PuddiDuddi/Puddipacks/main/assets/showroom.png?v=1.0.8" alt="All eight packs"></p>
 
 ## Design
 
@@ -59,9 +59,9 @@ Each tier shows more parts of the backpack model and has its own accent color.
 | Bog Pack | guck olive | + side pouch, knife |
 | Frostbound Pack | frost blue | + bedroll, straps |
 | Plainsrunner Pack | wheat gold | + pot, tool straps |
-| Eitrweave Pack | eitr blue | + metal clips, ring |
+| Eitrweave Pack | eitr teal | + metal clips, ring |
 | Cinder Pack | ember orange | all parts |
-| Northwind Pack | bloodgold crimson, gold metal | all parts |
+| Northwind Pack | midnight navy, steel blue | all parts |
 
 ## Turn off teleport
 
